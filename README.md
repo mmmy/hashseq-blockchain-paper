@@ -29,3 +29,6 @@ python -m hashseq.example --hash 0000000000000000000f
 
 ## Markdown 论文
 - [paper-md/基于区块链hash值生成数列的系统与方法V2.md](./paper-md/基于区块链hash值生成数列的系统与方法V2.md)
+
+## English Paper
+- [paper-en/blockchain-hash-sequence-generation-system-and-method-v2.md](./paper-en/blockchain-hash-sequence-generation-system-and-method-v2.md)
