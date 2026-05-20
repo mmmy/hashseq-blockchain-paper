@@ -1,33 +1,36 @@
 # hashseq-blockchain
 
-基于区块链 hash 值生成数列的可复现示例仓库。
+[English](./README.md) | [简体中文](./README.zh-CN.md)
 
-## 内容
-- 原始论文稿件
-- Python 实现
-- 双色球示例
-- 单元测试
+A reproducible example repository for generating deterministic number sequences from blockchain hash values.
 
-## 安装
+## Contents
+- Original paper manuscripts
+- Python implementation
+- Double Color Ball example
+- Unit tests
+
+## Install
 ```bash
 python -m pip install -e .
 ```
 
-## 快速开始
+## Quick Start
 ```bash
 python -m hashseq.example --hash 0000000000000000000f
 ```
 
-## 说明
-- 输入必须是十六进制 hash 字符串
-- 结果是确定性的，不等于证明真正随机
-- 具体使用哪条链、哪个区块、多少确认数，需要在协议层先定义
+## Notes
+- The input must be a hexadecimal hash string.
+- The output is deterministic; this repository does not prove true randomness by itself.
+- The blockchain, block height or time rule, and confirmation policy must be defined at the protocol layer before use.
+- The English paper currently reuses the original Chinese figures. Key charts can be redrawn in English later.
 
-## 原稿
+## Original Manuscripts
 - [paper/基于区块链hash值生成数列的系统与方法V2.docx](./paper/基于区块链hash值生成数列的系统与方法V2.docx)
 - [paper/基于区块链hash值生成数列的系统与方法2/](./paper/基于区块链hash值生成数列的系统与方法2)
 
-## Markdown 论文
+## Chinese Markdown Paper
 - [paper-md/基于区块链hash值生成数列的系统与方法V2.md](./paper-md/基于区块链hash值生成数列的系统与方法V2.md)
 
 ## English Paper
