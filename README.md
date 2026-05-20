@@ -26,6 +26,9 @@ python -m hashseq.example --hash 0000000000000000000f
 - The blockchain, block height or time rule, and confirmation policy must be defined at the protocol layer before use.
 - The English paper currently reuses the original Chinese figures. Key charts can be redrawn in English later.
 
+## Research Data
+The original data, statistical scripts, and result files used in the paper's argument are maintained in [mmmy/research_block](https://github.com/mmmy/research_block).
+
 ## Original Manuscripts
 - [paper/基于区块链hash值生成数列的系统与方法V2.docx](./paper/基于区块链hash值生成数列的系统与方法V2.docx)
 - [paper/基于区块链hash值生成数列的系统与方法2/](./paper/基于区块链hash值生成数列的系统与方法2)
